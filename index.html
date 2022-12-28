@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1 style="text-align:center; padding-top:50px; font-size: 5em">ART API Project</h1>
+
+    <div style="margin-top:50px" class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img class="gallery__img" src="images/After the Hurricane.jpg" alt="16776">
+                <h2>After The Hurricane</h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img class="gallery__img" src="images/nightlife.jpg" alt="117266">
+                <h2>NightLife</h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img class="gallery__img" src="images/Stela of Amenemhat and Hemet.jpg" alt="127859">
+                <h2>Stela of Amenemhat </h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img class="gallery__img" src="images/The Captive Slave.jpg" alt="193664">
+                <h2>The Captive Slave</h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig4" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img class="gallery__img" src="images/improvisation.jpg" alt="8991">
+                <h2>Improvisation</h2>
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img class="gallery__img" src="images/Zapata.jpg" alt="40619">
+                <h2>Zapata</h2>
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
